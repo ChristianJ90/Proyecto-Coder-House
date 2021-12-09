@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<head><!--Inicio cabeza de pagina-->
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="" content="registro de usuario, crea tu cuenta">
+    <title>A&M SHOP-Registro de Usuario</title>
+    <meta name="description" content="Ingrese a A&M SHOP. Por favor introduzca su información. Iniciar sesión ¿Olvidó su contraseña? Haz click aquí.">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css"><!--Estilo css externos-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+</head><!--Final cabeza de pagina-->
+<body><!--Inicio cuerpo de pagina-->
+    <header>
+        <nav class="navbar navbar-expand-lg|md|sm navbar-dark fixed-top bg-light">
+            <div class="container btn-light">
+                <a class="navbar-brand col-md-3 col-lg-2 mx-0" href="index.html"><H1>A&M SHOP</H1></a>
+              <form class="col-0 col-lg-4 col-md-3 mx-0"><input id="search" type="search" class="search form-control form-control-sm justify-content-center" placeholder="Search..." aria-label="Search">
+              </form>
+              <button class="navbar-toggler col-1 col-md-2 col-lg-2 mx-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="menuBar navbar-toggler-icon col-2 bg-black flex-row"></span>
+              </button>
+              <div class="collapse navbar-collapse flex-column bg-light col-1" id="collapsibleNavbar">
+                <ul class="navbar-nav bg-light">
+                    <li><a href="./trends.html" class="nav-link px-2 text-black">Tendencias</a></li>
+                    <li><a href="./categories.html" class="nav-link px-2 text-black">Categorias</a></li>
+                  <li><a href="index.html" class="nav-link px-2 text-black">Mas Buscado</a></li>
+                  <li><a href="#ancla2" class="nav-link px-2 text-black">Informacion</a></li>
+                  <li><a href="#ancla3" class="nav-link px-2 text-black">Ubicacion</a></li>
+                  <li><a href="#ancla4" class="nav-link px-2 text-black">Siguenos</a></li>
+                  <li><a href="#ancla5" class="nav-link px-2 text-black">Forma de Pago</a></li>
+                </ul>
+              </div>
+              <a href="log_in.html"><img class="aside col-1 col-md-2 col-lg-2 mx-0"src="img/user.png" alt="usuario"></a>
+              <a href="#ancla1"><img id="aside" class="aside col-1 col-md-2 col-lg-2 mx-0" src="img/help.png" alt="ayuda"></a>
+            </div>
+          </nav>
+    </header>
+    <main>
+        <form action="" class="form"><br>
+            <fieldset>
+                <legend><h2>Informacion Personal</h2></legend><br><br>
+                <input type="text" placeholder="Nombre" > <br><br>
+                <input type="text" placeholder="Apellido" > <br><br>
+                <input type="email" placeholder="Correo" > <br><br>
+                <input type="password" placeholder="Contraseña" > <br><br>
+                <h3 class="condiciones">Genero</h3>
+                <div>Masculino</div>
+                <input type="radio" name="genero" value="varon">
+                <div>Femenino</div>
+                <input type="radio" name="genero" value="mujer"><br><br>
+                <select name="pais de origen">
+                    <option value="">pais de origen</option>
+                    <option value="Ar"> Argentina</option>
+                    <option value="Cl"> Chile</option>
+                    <option value="Bl"> Bolivia</option>
+                    <option value="Pr"> Paraguay</option>
+                    <option value="Ur"> Uruguay</option>
+                </select><br><br>
+                <div><input type="checkbox" name="acepta" value="1">Acepta terminos y condiciones</div>
+                <br>
+            </fieldset><br>
+            <a href="index.html"><input type="button" value="Enviar"></a>
+            <input type="reset" value="Resetear"><br><br>
+        </form>
+    </main>
+    <footer class="grid"><!--Inicio pie de pagina-->
+        <div class="grid__footer">
+            <h4 id="ancla2">Informacion</h4>
+            <p>Ropa, Calzados y Accesorios 
+            en tendecias para Damas , <br>
+            ademas contamos 
+            con productos de bellaza 
+            de las mejores marcas <br>
+            profesionales para el cabello 
+            y de la piel.</p>
+        </div> 
+        <div class="grid__footer">
+            <h4 id="ancla1">Atencion al Cliente</h4>
+            <p>Comunicate con tu aliada de belleza a nuestro Whatsapp
+            +56 956376830</p><br> 
+            <p>Horarios de Atencion<br>
+            Lunes a Viernes 10:00 - 18:00 hrs. <br>
+            Sábados 10:00 - 16:00 hr.<br>
+            Envios a todas las Regiones de Chile</p>
+        </div>
+        <div class="grid__footer">
+            <h4 id="ancla3">Ubicacion</h4>
+            <p>Ecuador 3866, Estacion Central, <br> Region Metropolitana,Chile</p><br><!--Ubicacion en tiempo real-->
+            <iframe class="grid--map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3328.9171920837457!2d-70.69190868498039!3d-33.45146388077358!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c45f73cba341%3A0x6b32f927a1d402d4!2sAv.%20V%C3%ADctor%20Jara%203866%2C%20Santiago%2C%20Estaci%C3%B3n%20Central%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses!2scl!4v1635375962146!5m2!1ses!2scl"style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div class="grid__footer">
+            <div class="footer">
+                <h4 id="ancla4">Siguenos</h4>
+                <a href="https://www.facebook.com/"><img class="grid--img" src="img/facebook.png" alt=""></a><!--imagenes-->
+                <a href="https://www.instagram.com/"><img class="grid--img" src="img/instagram.png" alt=""></a><!--imagenes-->
+                <a href="https://www.whatsapp.com/"><img class="grid--img" src="img/whatsapp.png" alt=""></a><!--imagenes-->
+            </div><br>
+            <div class="grid__footer">
+                <h4 id="ancla5">Formas de Pago</h4>
+                <img class="grid--img" src="img/visa.png" alt=""><!--imagenes-->
+                <img class="grid--img" src="img/mastercard.png" alt=""><!--imagenes-->
+                <img class="grid--img" src="img/efectivo.png" alt=""><!--imagenes-->
+            </div>
+        </div>
+    </footer><!--Final pie de pagina-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    </body><!--final de cuerpo de pagina-->
+    </html>

@@ -1,0 +1,8 @@
+#carpetas ignoradas
+node_modules
+scss
+
+
+#archivos del sistema ignorados
+package-lock.json
+package.json
