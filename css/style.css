@@ -432,7 +432,7 @@ form {
 /*Fin de Contenido Pagina*/
 /*Media Queries*/
 /*Smartphone S*/
-@media (min-width: 300px) and (max-width: 379px) {
+@media (min-width: 300px) and (max-width: 400px) {
   header {
     height: 8px; }
   .container {
@@ -518,7 +518,7 @@ form {
     height: 15px; } }
 
 /*Smartphone*/
-@media (min-width: 380px) and (max-width: 426px) {
+@media (min-width: 401px) and (max-width: 520px) {
   header {
     height: 10px; }
   h1 {
@@ -586,18 +586,25 @@ form {
     height: 15px; } }
 
 /*Tablet*/
-@media (min-width: 427px) and (max-width: 768px) {
+@media (min-width: 521px) and (max-width: 780px) {
   header {
     width: 100vw;
     height: 40px;
     margin: 0;
     justify-content: center; }
+  .search {
+    width: 30%;
+    height: 37px;
+    font-size: 0.5rem;
+    border-radius: 5px; }
   .aside {
-    width: 25px;
-    height: 25px; }
+    width: 20px;
+    height: 20px; }
   #aside {
-    width: 25px;
-    height: 25px; }
+    display: none; }
+  .menuBar {
+    width: 20px;
+    height: 20px; }
   .tamaño img {
     height: 500px;
     margin: 0;
