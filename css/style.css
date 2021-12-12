@@ -338,12 +338,11 @@ main {
   width: 250px;
   height: 280px;
   margin: 20px;
-  border-radius: 5px;
-  transform: skew(5deg); }
+  border-radius: 15px; }
 
 .imgCat:hover {
-  width: 300px;
-  height: 350px;
+  width: 270px;
+  height: 300px;
   transition: 1.5s; }
 
 .tamaño img {
@@ -357,11 +356,10 @@ main {
   width: 250px;
   height: 280px;
   margin: 20px;
-  border-radius: 5px;
-  transform: skew(5deg); }
+  border-radius: 15px; }
 
 .imgWide:hover {
-  width: 300px;
+  width: 270px;
   height: 300px;
   transition: 1.5s; }
 
@@ -369,11 +367,10 @@ main {
   width: 250px;
   height: 280px;
   margin: 35px;
-  border-radius: 5px;
-  transform: skew(5deg); }
+  border-radius: 15px; }
 
 .imgtends:hover {
-  width: 300px;
+  width: 270px;
   height: 300px;
   transition: 1.5s; }
 
@@ -386,14 +383,12 @@ main {
 .felizNavidad {
   width: 100%;
   height: 400px;
-  margin: 5px;
-  border-radius: 5px; }
+  margin: 5px; }
 
 .primavera {
-  width: 99.2%;
+  width: 100%;
   height: 500px;
-  margin: 5px;
-  border-radius: 5px; }
+  margin: 5px; }
 
 h2 {
   text-align: center; }
@@ -412,13 +407,6 @@ article {
 .olvidoPass {
   text-align: center; }
 
-form {
-  border-radius: 10px;
-  text-align: center;
-  width: 50%;
-  margin: 0 25% 0 25%;
-  border-style: groove; }
-
 .form {
   border-radius: 10px;
   text-align: center;
@@ -434,7 +422,7 @@ form {
 /*Smartphone S*/
 @media (min-width: 300px) and (max-width: 400px) {
   header {
-    height: 8px; }
+    height: 5px; }
   .container {
     margin: 0 20px; }
   h1 {
@@ -470,9 +458,9 @@ form {
     width: 120px;
     height: 120px;
     margin: 5px;
-    border-radius: 5px;
-    transform: skew(5deg);
-    margin-left: 25px; }
+    border-radius: 15px;
+    margin-left: 25px;
+    transition: none; }
   .tamaño img {
     height: 300px;
     margin: 0;
@@ -483,15 +471,15 @@ form {
     width: 100px;
     height: 100px;
     margin: 5px;
-    border-radius: 5px;
-    transform: skew(5deg); }
+    border-radius: 15px;
+    transition: none; }
   .imgCat {
     width: 120px;
     height: 120px;
     margin: 5px;
-    border-radius: 5px;
-    transform: skew(5deg);
-    margin-left: 25px; }
+    border-radius: 15px;
+    margin-left: 25px;
+    transition: none; }
   h2 {
     font-size: 0.8rem; }
   h3 {
@@ -520,7 +508,7 @@ form {
 /*Smartphone*/
 @media (min-width: 401px) and (max-width: 520px) {
   header {
-    height: 10px; }
+    height: 8px; }
   h1 {
     font-size: small; }
   .aside {
@@ -533,9 +521,10 @@ form {
     height: 20px; }
   .search {
     width: 30%;
-    height: 37px;
+    height: 20px;
     font-size: 0.5rem;
-    border-radius: 5px; }
+    border-radius: 15px;
+    margin-bottom: 10px; }
   .tamaño img {
     width: 300px;
     height: 300px; }
@@ -543,15 +532,15 @@ form {
     width: 100px;
     height: 100px;
     margin: 10px;
-    border-radius: 5px;
-    transform: skew(5deg); }
+    border-radius: 15px;
+    transition: none; }
   .imgtrends {
     width: 120px;
     height: 120px;
     margin: 5px;
-    border-radius: 5px;
-    transform: skew(5deg);
-    margin-left: 25px; }
+    border-radius: 15px;
+    margin-left: 25px;
+    transition: none; }
   .primavera {
     width: 100%;
     height: 200px;
@@ -564,8 +553,8 @@ form {
     width: 100px;
     height: 100px;
     margin: 5px;
-    border-radius: 5px;
-    transform: skew(5deg); }
+    border-radius: 15px;
+    transition: none; }
   h2 {
     font-size: 0.8rem; }
   h3 {
@@ -594,9 +583,9 @@ form {
     justify-content: center; }
   .search {
     width: 30%;
-    height: 37px;
+    height: 20px;
     font-size: 0.5rem;
-    border-radius: 5px; }
+    border-radius: 15px; }
   .aside {
     width: 20px;
     height: 20px; }
@@ -613,23 +602,24 @@ form {
     border-radius: 0; }
   .imgWide {
     width: 150px;
-    height: 160px; }
+    height: 160px;
+    transition: none; }
   .imgtrends {
     width: 150px;
     height: 160px;
     margin: 5px;
-    border-radius: 5px;
-    transform: skew(5deg);
-    margin-left: 25px; }
+    border-radius: 15px;
+    margin-left: 25px;
+    transition: none; }
   .summer {
     height: 300px; }
   .imgCat {
     width: 150px;
     height: 160px;
     margin: 5px;
-    border-radius: 5px;
-    transform: skew(5deg);
-    margin-left: 25px; }
+    border-radius: 15px;
+    margin-left: 25px;
+    transition: none; }
   h3 {
     font-size: 20px; }
   .grid {
@@ -664,7 +654,6 @@ form {
     height: 500px;
     margin: 0;
     padding: 0;
-    transform: none;
     border-radius: 0; }
   .imgWide {
     width: 250px;
@@ -673,8 +662,7 @@ form {
     width: 250px;
     height: 260px;
     margin: 5px;
-    border-radius: 5px;
-    transform: skew(5deg);
+    border-radius: 15px;
     margin-left: 25px; }
   .summer {
     height: 300px; }
@@ -682,8 +670,7 @@ form {
     width: 250px;
     height: 260px;
     margin: 5px;
-    border-radius: 5px;
-    transform: skew(5deg);
+    border-radius: 15px;
     margin-left: 25px; }
   h3 {
     font-size: 20px; }
