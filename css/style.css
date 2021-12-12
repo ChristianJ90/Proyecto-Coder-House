@@ -576,7 +576,9 @@ article {
     height: 70px; }
   .grid--img {
     width: 15px;
-    height: 15px; } }
+    height: 15px; }
+  .condiciones {
+    font-size: small; } }
 
 /*Tablet*/
 @media (min-width: 521px) and (max-width: 780px) {
