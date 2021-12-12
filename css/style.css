@@ -502,7 +502,9 @@ article {
     height: 50px; }
   .grid--img {
     width: 15px;
-    height: 15px; } }
+    height: 15px; }
+  .condiciones {
+    font-size: small; } }
 
 /*Smartphone*/
 @media (min-width: 401px) and (max-width: 520px) {
@@ -646,7 +648,9 @@ article {
     height: 100px; }
   .grid--img {
     width: 25px;
-    height: 25px; } }
+    height: 25px; }
+  .condiciones {
+    font-size: medium; } }
 
 /*Desktop*/
 @media (min-width: 769px) and (max-width: 1024px) {
@@ -703,4 +707,6 @@ article {
     height: 100px; }
   .grid--img {
     width: 25px;
-    height: 25px; } }
+    height: 25px; }
+  .condiciones {
+    font-size: large; } }
