@@ -37,7 +37,7 @@ variable
 header {
   font-family: 'Dancing Script', cursive;
   width: 100vw;
-  height: 65px;
+  height: 55px;
   margin: 0; }
 
 h1 {
@@ -411,7 +411,7 @@ article {
   border-radius: 10px;
   text-align: center;
   width: 50%;
-  margin: 0 25% 0 25%;
+  margin: 3px 25% 0 25%;
   border-style: groove; }
 
 .condiciones {
@@ -488,8 +488,7 @@ article {
     border-radius: 10px;
     text-align: center;
     width: 60%;
-    margin: 0 20% 0 20%;
-    border-style: groove; }
+    margin: 43px 20% 0 20%; }
   .grid {
     height: 220px;
     font-size: 8px; }
@@ -555,6 +554,11 @@ article {
     margin: 5px;
     border-radius: 15px;
     transition: none; }
+  .form {
+    border-radius: 10px;
+    text-align: center;
+    width: 60%;
+    margin: 43px 20% 0 20%; }
   h2 {
     font-size: 0.8rem; }
   h3 {
@@ -620,6 +624,11 @@ article {
     border-radius: 15px;
     margin-left: 25px;
     transition: none; }
+  .form {
+    border-radius: 10px;
+    text-align: center;
+    width: 60%;
+    margin: 15px 20% 0 20%; }
   h3 {
     font-size: 20px; }
   .grid {
@@ -672,6 +681,11 @@ article {
     margin: 5px;
     border-radius: 15px;
     margin-left: 25px; }
+  .form {
+    border-radius: 10px;
+    text-align: center;
+    width: 60%;
+    margin: 20px 20% 0 20%; }
   h3 {
     font-size: 20px; }
   .grid {
