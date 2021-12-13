@@ -10,7 +10,7 @@ footer {
   grid-template-columns: 24.5% 24.5% 24.5% 24.5%;
   grid-template-rows: 200px;
   gap: 10px;
-  margin: 5px; }
+  margin: 0; }
 
 h4 {
   text-align: center;
@@ -37,8 +37,13 @@ variable
 header {
   font-family: 'Dancing Script', cursive;
   width: 100vw;
-  height: 55px;
-  margin: 0; }
+  height: 50px;
+  margin: 0;
+  padding: 0; }
+
+.navbar {
+  margin: 0;
+  padding: 8px 0 0 0; }
 
 h1 {
   color: black;
@@ -332,63 +337,62 @@ MAPS
 main {
   background-image: url(../img/body-min.png);
   width: 100%;
-  margin: 0; }
-
-.imgCat {
-  width: 250px;
-  height: 280px;
-  margin: 20px;
-  border-radius: 15px; }
-
-.imgCat:hover {
-  width: 270px;
-  height: 300px;
-  transition: 1.5s; }
+  margin: -9px -5px 0 0;
+  padding: 0; }
 
 .tamaño img {
-  height: 750px;
+  width: 100%;
+  height: 600px;
   margin: 0;
-  padding: 0;
-  transform: none;
-  border-radius: 0; }
+  padding: 0; }
 
 .imgWide {
-  width: 250px;
-  height: 280px;
-  margin: 20px;
+  width: 290px;
+  height: 500px;
+  margin: 0 0 20px 0;
   border-radius: 15px; }
 
 .imgWide:hover {
-  width: 270px;
-  height: 300px;
+  width: 310px;
+  height: 550px;
   transition: 1.5s; }
 
 .imgtrends {
-  width: 250px;
-  height: 280px;
-  margin: 35px;
+  width: 300px;
+  height: 500px;
+  margin: 0 0 20px 0;
   border-radius: 15px; }
 
-.imgtends:hover {
-  width: 270px;
-  height: 300px;
+.imgtrends:hover {
+  width: 310px;
+  height: 550px;
   transition: 1.5s; }
 
-.summer {
-  width: 99.2%;
-  height: 700px;
-  margin: 5px;
-  border-radius: 5px; }
+.primavera {
+  width: 100%;
+  height: 500px;
+  margin: 5px; }
 
 .felizNavidad {
   width: 100%;
   height: 400px;
   margin: 5px; }
 
-.primavera {
-  width: 100%;
+.imgCat {
+  width: 300px;
   height: 500px;
-  margin: 5px; }
+  margin: 0 0 20px 0;
+  border-radius: 15px; }
+
+.imgCat:hover {
+  width: 310px;
+  height: 550px;
+  transition: 1.5s; }
+
+.felizNavidadcat {
+  width: 100%;
+  height: 300px;
+  margin: 0; }
 
 h2 {
   text-align: center; }
@@ -404,14 +408,20 @@ article {
   flex-wrap: wrap;
   justify-content: space-evenly; }
 
+.log-in {
+  width: 100%;
+  height: calc(100vh - 288px); }
+
 .olvidoPass {
+  width: 100%;
+  height: calc(100vh - 288px);
   text-align: center; }
 
 .form {
   border-radius: 10px;
   text-align: center;
   width: 50%;
-  margin: 3px 25% 0 25%;
+  margin: 7px 25% 0 25%;
   border-style: groove; }
 
 .condiciones {
@@ -422,64 +432,83 @@ article {
 /*Smartphone S*/
 @media (min-width: 300px) and (max-width: 400px) {
   header {
-    height: 5px; }
+    width: 100%;
+    height: 10px; }
+  .navbar {
+    height: 40px; }
   .container {
-    margin: 0 20px; }
+    margin: 0;
+    padding: 0; }
   h1 {
     font-size: small;
     margin: 0; }
   .aside {
     width: 17px;
     height: 17px;
-    margin-left: 20px; }
+    margin: 0px; }
   #aside {
     display: none; }
+  .menu {
+    margin: 0;
+    padding: 0; }
   .menuBar {
     width: 12px;
     height: 12px;
-    margin-left: 20px; }
+    margin: 0px; }
   .search {
-    display: none; }
-  .summer {
-    width: 300px;
-    height: 300px; }
+    width: 20%;
+    font-size: 0.5rem;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    padding: 0; }
+  .tamaño img {
+    width: 100vw;
+    height: 160px;
+    margin: 25px 0 0 0;
+    padding: 0; }
+  .imgWide {
+    width: 150px;
+    height: 300px;
+    margin: 5px;
+    border-radius: 15px; }
+  .imgWide:hover {
+    width: 150px;
+    height: 300px;
+    transition: none; }
+  .imgtrends {
+    width: 150px;
+    height: 300px;
+    margin: 5px;
+    border-radius: 15px; }
+  .imgtrends:hover {
+    width: 150px;
+    height: 300px;
+    transition: none; }
   .felizNavidad1 {
-    width: 300px;
-    height: 300px; }
+    width: 150px;
+    height: 200px; }
   .felizNavidad {
     width: 320px;
-    height: 200px;
-    margin-left: 5px; }
+    height: 150px;
+    margin-top: 30px; }
   .primavera {
     width: 320px;
-    height: 200px;
+    height: 180px;
     margin-left: 5px; }
-  .imgtrends {
-    width: 120px;
-    height: 120px;
-    margin: 5px;
-    border-radius: 15px;
-    margin-left: 25px;
-    transition: none; }
-  .tamaño img {
-    height: 300px;
-    margin: 0;
-    padding: 0;
-    transform: none;
-    border-radius: 0; }
-  .imgWide {
-    width: 100px;
-    height: 100px;
-    margin: 5px;
-    border-radius: 15px;
-    transition: none; }
   .imgCat {
-    width: 120px;
-    height: 120px;
+    width: 150px;
+    height: 300px;
     margin: 5px;
     border-radius: 15px;
-    margin-left: 25px;
+    margin: 5px; }
+  .imgCat:hover {
+    width: 150px;
+    height: 300px;
     transition: none; }
+  .felizNavidadcat {
+    width: 320px;
+    height: 100px;
+    margin-top: 30px; }
   h2 {
     font-size: 0.8rem; }
   h3 {
@@ -488,7 +517,14 @@ article {
     border-radius: 10px;
     text-align: center;
     width: 60%;
-    margin: 43px 20% 0 20%; }
+    margin: 45px 20% 0 20%; }
+  .log-in {
+    width: 100%;
+    height: calc(100vh - 230px); }
+  .olvidoPass {
+    width: 100%;
+    height: calc(100vh - 230px);
+    text-align: center; }
   .grid {
     height: 220px;
     font-size: 8px; }
@@ -504,7 +540,9 @@ article {
     width: 15px;
     height: 15px; }
   .condiciones {
-    font-size: small; } }
+    font-size: small; }
+  .genero {
+    font-size: x-small; } }
 
 /*Smartphone*/
 @media (min-width: 401px) and (max-width: 520px) {
@@ -518,53 +556,79 @@ article {
   #aside {
     display: none; }
   .menuBar {
-    width: 20px;
-    height: 20px; }
+    width: 18px;
+    height: 18px; }
+  .search1 {
+    margin: 0 0 5px 0;
+    padding: 0; }
   .search {
     width: 30%;
-    height: 20px;
     font-size: 0.5rem;
     border-radius: 15px;
-    margin-bottom: 10px; }
+    margin-bottom: 10px;
+    margin: 0;
+    padding: 0; }
   .tamaño img {
-    width: 300px;
-    height: 300px; }
+    height: 200px;
+    margin-top: 30px;
+    padding: 0;
+    transform: none;
+    border-radius: 0; }
   .imgWide {
-    width: 100px;
-    height: 100px;
-    margin: 10px;
+    width: 195px;
+    height: 300px;
     border-radius: 15px;
+    margin-left: 5px; }
+  .imgWide:hover {
+    width: 195px;
+    height: 300px;
     transition: none; }
   .imgtrends {
-    width: 120px;
-    height: 120px;
-    margin: 5px;
+    width: 195px;
+    height: 300px;
     border-radius: 15px;
-    margin-left: 25px;
-    transition: none; }
-  .primavera {
-    width: 100%;
-    height: 200px;
     margin-left: 5px; }
+  .imgtrends:hover {
+    width: 195px;
+    height: 300px;
+    transition: none; }
+  .felizNavidad1 {
+    width: 150px;
+    height: 200px; }
   .felizNavidad {
-    width: 100%;
-    height: 200px;
-    margin-left: 5px; }
+    height: 150px;
+    margin-top: 30px; }
+  .primavera {
+    height: 180px; }
   .imgCat {
-    width: 100px;
-    height: 100px;
-    margin: 5px;
+    width: 195px;
+    height: 300px;
     border-radius: 15px;
+    margin-left: 5px; }
+  .imgCat:hover {
+    width: 195px;
+    height: 300px;
     transition: none; }
+  .felizNavidadcat {
+    width: 320px;
+    height: 100px;
+    margin-top: 30px; }
   .form {
     border-radius: 10px;
     text-align: center;
     width: 60%;
-    margin: 43px 20% 0 20%; }
+    margin: 45px 20% 0 20%; }
   h2 {
     font-size: 0.8rem; }
   h3 {
     font-size: 1rem; }
+  .log-in {
+    width: 100%;
+    height: calc(100vh - 230px); }
+  .olvidoPass {
+    width: 100%;
+    height: calc(100vh - 230px);
+    text-align: center; }
   .grid {
     height: 210px;
     font-size: 9px; }
@@ -580,118 +644,92 @@ article {
     width: 15px;
     height: 15px; }
   .condiciones {
-    font-size: small; } }
+    font-size: small; }
+  .genero {
+    font-size: x-small; } }
 
 /*Tablet*/
 @media (min-width: 521px) and (max-width: 780px) {
   header {
     width: 100vw;
-    height: 40px;
+    height: 50px;
     margin: 0;
     justify-content: center; }
+  .navbar {
+    height: 60px; }
+  h1 {
+    font-size: medium; }
   .search {
-    width: 30%;
+    width: 40%;
     height: 20px;
     font-size: 0.5rem;
-    border-radius: 15px; }
+    border-radius: 15px;
+    margin-bottom: 15px; }
+  .search1 {
+    margin: 0 0 40px 0;
+    padding: 0; }
   .aside {
-    width: 20px;
-    height: 20px; }
+    width: 28px;
+    height: 28px;
+    margin-left: 20px; }
   #aside {
     display: none; }
   .menuBar {
-    width: 20px;
-    height: 20px; }
+    width: 25px;
+    height: 25px;
+    margin-left: 20px; }
   .tamaño img {
-    height: 500px;
-    margin: 0;
+    height: 300px;
+    margin-top: 5px;
     padding: 0;
     transform: none;
     border-radius: 0; }
   .imgWide {
-    width: 150px;
-    height: 160px;
+    width: 250px;
+    height: 460px;
+    border-radius: 15px;
+    margin-left: 5px; }
+  .imgWide:hover {
+    width: 250px;
+    height: 460px;
     transition: none; }
   .imgtrends {
-    width: 150px;
-    height: 160px;
-    margin: 5px;
-    border-radius: 15px;
-    margin-left: 25px;
-    transition: none; }
-  .summer {
-    height: 300px; }
-  .imgCat {
-    width: 150px;
-    height: 160px;
-    margin: 5px;
-    border-radius: 15px;
-    margin-left: 25px;
-    transition: none; }
-  .form {
-    border-radius: 10px;
-    text-align: center;
-    width: 60%;
-    margin: 15px 20% 0 20%; }
-  h3 {
-    font-size: 20px; }
-  .grid {
-    height: 210px;
-    font-size: 11px; }
-  .grid__footer {
-    gap: 5px;
-    margin: 5px; }
-  h4 {
-    font-size: 1rem; }
-  .grid--map {
-    width: 100px;
-    height: 100px; }
-  .grid--img {
-    width: 25px;
-    height: 25px; }
-  .condiciones {
-    font-size: medium; } }
-
-/*Desktop*/
-@media (min-width: 769px) and (max-width: 1024px) {
-  header {
-    width: 100vw;
-    height: 40px;
-    margin: 0;
-    justify-content: center; }
-  .aside {
-    width: 25px;
-    height: 25px; }
-  #aside {
-    width: 25px;
-    height: 25px; }
-  .tamaño img {
-    height: 500px;
-    margin: 0;
-    padding: 0;
-    border-radius: 0; }
-  .imgWide {
     width: 250px;
-    height: 260px; }
-  .imgtrends {
-    width: 250px;
-    height: 260px;
-    margin: 5px;
+    height: 460px;
     border-radius: 15px;
-    margin-left: 25px; }
-  .summer {
-    height: 300px; }
+    margin-left: 5px; }
+  .imgtrends:hover {
+    width: 250px;
+    height: 460px;
+    transition: none; }
+  .primavera {
+    height: 250px; }
+  .felizNavidad {
+    height: 180px; }
+  .felizNavidadcat {
+    height: 200px;
+    margin-top: 5px; }
   .imgCat {
     width: 250px;
-    height: 260px;
-    margin: 5px;
+    height: 460px;
     border-radius: 15px;
-    margin-left: 25px; }
+    margin-left: 5px; }
+  .imgCat:hover {
+    width: 250px;
+    height: 460px;
+    transition: none; }
   .form {
     border-radius: 10px;
     text-align: center;
     width: 60%;
     margin: 20px 20% 0 20%; }
+  .log-in {
+    width: 100%;
+    height: calc(100vh - 230px); }
+  .olvidoPass {
+    width: 100%;
+    height: calc(100vh - 230px);
+    text-align: center; }
   h3 {
     font-size: 20px; }
   .grid {
@@ -709,4 +747,97 @@ article {
     width: 25px;
     height: 25px; }
   .condiciones {
-    font-size: large; } }
+    font-size: medium; }
+  .genero {
+    font-size: small; } }
+
+/*Desktop*/
+@media (min-width: 781px) and (max-width: 1024px) {
+  header {
+    width: 100vw;
+    height: 40px;
+    margin: 0;
+    justify-content: center; }
+  h1 {
+    font-size: large; }
+  .aside {
+    width: 28px;
+    height: 28px; }
+  #aside {
+    width: 28px;
+    height: 28px; }
+  .menuBar {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px; }
+  .tamaño img {
+    height: 450px;
+    margin: 0;
+    padding: 0;
+    border-radius: 0; }
+  .imgWide {
+    width: 300px;
+    height: 550px;
+    border-radius: 15px;
+    margin-left: 5px; }
+  .imgWide:hover {
+    width: 300px;
+    height: 550px;
+    transition: none; }
+  .imgtrends {
+    width: 300px;
+    height: 550px;
+    border-radius: 15px;
+    margin-left: 5px; }
+  .imgtrends:hover {
+    width: 300px;
+    height: 550px;
+    transition: none; }
+  .primavera {
+    height: 300px; }
+  .felizNavidad {
+    height: 200px; }
+  .felizNavidadcat {
+    height: 200px;
+    margin-top: 5px; }
+  .imgCat {
+    width: 300px;
+    height: 550px;
+    border-radius: 15px;
+    margin-left: 5px; }
+  .imgCat:hover {
+    width: 300px;
+    height: 550px;
+    transition: none; }
+  .form {
+    border-radius: 10px;
+    text-align: center;
+    width: 60%;
+    margin: 16px 20% 0 20%; }
+  .log-in {
+    width: 100%;
+    height: calc(100vh - 250px); }
+  .olvidoPass {
+    width: 100%;
+    height: calc(100vh - 250px);
+    text-align: center; }
+  h3 {
+    font-size: 20px; }
+  .grid {
+    height: 210px;
+    font-size: 11px; }
+  .grid__footer {
+    gap: 5px;
+    margin: 5px; }
+  h4 {
+    font-size: 1rem; }
+  .grid--map {
+    width: 100px;
+    height: 100px; }
+  .grid--img {
+    width: 25px;
+    height: 25px; }
+  .condiciones {
+    font-size: large; }
+  .genero {
+    font-size: medium; } }
