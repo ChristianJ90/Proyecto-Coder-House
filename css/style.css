@@ -626,11 +626,14 @@ article {
     font-size: 1rem; }
   .log-in {
     width: 100%;
-    height: calc(100vh - 230px); }
+    height: calc(100vh - 215px); }
   .olvidoPass {
     width: 100%;
-    height: calc(100vh - 230px);
+    height: calc(100vh - 215px);
     text-align: center; }
+  .registro {
+    width: 100%;
+    height: calc(100vh - 215px); }
   .grid {
     height: 210px;
     font-size: 9px; }
