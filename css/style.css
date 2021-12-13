@@ -548,6 +548,8 @@ article {
 @media (min-width: 401px) and (max-width: 520px) {
   header {
     height: 8px; }
+  .navbar {
+    height: 40px; }
   h1 {
     font-size: small; }
   .aside {
@@ -612,7 +614,7 @@ article {
   .felizNavidadcat {
     width: 320px;
     height: 100px;
-    margin-top: 30px; }
+    margin-top: 45px; }
   .form {
     border-radius: 10px;
     text-align: center;
