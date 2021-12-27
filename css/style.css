@@ -35,7 +35,6 @@ variable
   box-sizing: border-box; }
 
 header {
-  font-family: 'Dancing Script', cursive;
   width: 100vw;
   height: 40px;
   margin: 0;
@@ -46,6 +45,8 @@ header {
   padding: 8px 0 0 0; }
 
 h1 {
+  font-family: 'Kalam', cursive;
+  font-weight: bold;
   color: black;
   font-size: x-large; }
 
@@ -72,7 +73,8 @@ h1 {
 
 .menuBar {
   width: 30px;
-  height: 30px; }
+  height: 30px;
+  border-radius: 5px; }
 
 nav ul {
   list-style: none;
@@ -89,7 +91,7 @@ nav li {
   line-height: 3rem;
   background-color: transparent;
   font-weight: bold;
-  font-size: 19px; }
+  font-size: 23px; }
 
 nav li ul {
   display: none; }
@@ -98,6 +100,8 @@ nav > ul > li {
   float: left; }
 
 nav a {
+  font-family: 'Courgette', cursive;
+  font-weight: lighter;
   color: black;
   display: block;
   padding: 0 2.5em;
@@ -107,12 +111,11 @@ nav a {
 nav a:hover {
   background: lightcoral;
   color: white;
-  font-size: 16px; }
+  font-size: 25px; }
 
 ul li:hover {
   background-color: #e58c8a;
-  font-size: 20px;
-  transition: 1s;
+  transition: 1.5s;
   border-radius: 5px; }
 
 /*fin de Menu*/
@@ -297,29 +300,14 @@ BUCLES
 /****************
 EACH - LISTAS
 *****************/
-main {
-  font-family: 'Dancing Script', cursive;
-  color: black; }
+h2 {
+  font-family: 'Courgette', cursive; }
 
-div {
-  font-family: 'Dancing Script', cursive;
-  color: black; }
+h3 {
+  font-family: 'Courgette', cursive; }
 
-aside {
-  font-family: 'Dancing Script', cursive;
-  color: black; }
-
-section {
-  font-family: 'Dancing Script', cursive;
-  color: black; }
-
-article {
-  font-family: 'Dancing Script', cursive;
-  color: black; }
-
-footer {
-  font-family: 'Dancing Script', cursive;
-  color: black; }
+h4 {
+  font-family: 'Courgette', cursive; }
 
 /***************
 MAPS
@@ -352,7 +340,7 @@ MAPS
 main {
   background-image: url(../img/body-min.png);
   width: 100%;
-  margin: -9px -5px 0 0;
+  margin: 5px -5px 0 0;
   padding: 0; }
 
 .tamaño img {
@@ -362,25 +350,25 @@ main {
   padding: 0; }
 
 .imgWide {
-  width: 290px;
-  height: 500px;
+  width: 300px;
+  height: 600px;
   margin: 0 0 20px 0;
   border-radius: 15px; }
 
 .imgWide:hover {
   width: 310px;
-  height: 550px;
+  height: 650px;
   transition: 1.5s; }
 
 .imgtrends {
   width: 300px;
-  height: 500px;
+  height: 600px;
   margin: 0 0 20px 0;
   border-radius: 15px; }
 
 .imgtrends:hover {
   width: 310px;
-  height: 550px;
+  height: 650px;
   transition: 1.5s; }
 
 .primavera {
@@ -395,13 +383,13 @@ main {
 
 .imgCat {
   width: 300px;
-  height: 500px;
+  height: 600px;
   margin: 0 0 20px 0;
   border-radius: 15px; }
 
 .imgCat:hover {
   width: 310px;
-  height: 550px;
+  height: 650px;
   transition: 1.5s; }
 
 .felizNavidadcat {
@@ -413,7 +401,7 @@ h2 {
   text-align: center; }
 
 h3 {
-  font-family: 'Dancing Script', cursive;
+  margin: 10px;
   color: black;
   text-align: center; }
 
@@ -424,31 +412,160 @@ article {
   justify-content: space-evenly; }
 
 .log-in {
-  width: 100%;
-  height: calc(100vh - 288px); }
+  width: 100%; }
 
 .olvidoPass {
   width: 100%;
-  height: calc(100vh - 288px);
   text-align: center; }
 
 .form {
-  border-radius: 10px;
+  border-radius: 15px;
   text-align: center;
-  width: 50%;
-  margin: 7px 25% 0 25%;
-  border-style: groove; }
+  width: 40%;
+  margin: 12px 30% 0 30%;
+  border-style: groove;
+  background-color: #f1dfd1;
+  background-image: linear-gradient(300deg, #f1dfd1 0%, #f6f0ea 95%); }
 
 .condiciones {
-  font-size: x-large; }
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif; }
+
+.genero {
+  font-size: 21px; }
 
 p {
-  font-family: arial, sans-serif; }
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px; }
 
 /*Fin de Contenido Pagina*/
 /*Media Queries*/
 /*Smartphone S*/
-@media (min-width: 300px) and (max-width: 400px) {
+@media (min-width: 300px) and (max-width: 366px) {
+  header {
+    width: 100%;
+    height: 10px; }
+  .navbar {
+    height: 40px; }
+  .container {
+    margin: 0;
+    padding: 0; }
+  .logo {
+    width: 20px;
+    height: 20px; }
+  h1 {
+    font-size: small;
+    margin: 0;
+    text-align: left; }
+  .aside {
+    width: 20px;
+    height: 20px;
+    margin: 0px; }
+  #aside {
+    display: none; }
+  .menu {
+    margin: 0;
+    padding: 0; }
+  .menuBar {
+    width: 18px;
+    height: 18px;
+    margin: 0px; }
+  nav li {
+    line-height: 3rem;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 1rem; }
+  .search {
+    width: 30%;
+    font-size: 0.5rem;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    padding: 0; }
+  .tamaño img {
+    width: 100vw;
+    height: 160px;
+    margin: 25px 0 0 0;
+    padding: 0; }
+  .imgWide {
+    width: 150px;
+    height: 300px;
+    margin: 5px;
+    border-radius: 15px; }
+  .imgWide:hover {
+    width: 150px;
+    height: 300px;
+    transition: none; }
+  .imgtrends {
+    width: 150px;
+    height: 300px;
+    margin: 5px;
+    border-radius: 15px; }
+  .imgtrends:hover {
+    width: 150px;
+    height: 300px;
+    transition: none; }
+  .felizNavidad1 {
+    width: 150px;
+    height: 200px; }
+  .felizNavidad {
+    width: 100%;
+    height: 150px;
+    margin-top: 30px; }
+  .primavera {
+    width: 320px;
+    height: 180px;
+    margin-left: 5px; }
+  .imgCat {
+    width: 150px;
+    height: 300px;
+    margin: 5px;
+    border-radius: 15px;
+    margin: 5px; }
+  .imgCat:hover {
+    width: 150px;
+    height: 300px;
+    transition: none; }
+  .felizNavidadcat {
+    width: 320px;
+    height: 100px;
+    margin-top: 30px; }
+  h2 {
+    font-size: 1rem; }
+  h3 {
+    font-size: 1rem; }
+  .form {
+    border-radius: 10px;
+    text-align: center;
+    width: 60%;
+    margin: 45px 20% 0 20%; }
+  .log-in {
+    width: 100%; }
+  .olvidoPass {
+    width: 100%;
+    text-align: center; }
+  .grid {
+    height: 310px;
+    font-size: 10px; }
+  .grid__footer {
+    gap: 5px;
+    margin: 5px; }
+  h4 {
+    font-size: 11px; }
+  .grid--map {
+    width: 50px;
+    height: 50px; }
+  .grid--img {
+    width: 15px;
+    height: 15px; }
+  .condiciones {
+    font-size: small; }
+  .genero {
+    font-size: large; }
+  p {
+    font-size: x-small; } }
+
+/*Smartphone M*/
+@media (min-width: 367px) and (max-width: 424px) {
   header {
     width: 100%;
     height: 10px; }
@@ -459,10 +576,14 @@ p {
     padding: 0; }
   h1 {
     font-size: small;
-    margin: 0; }
+    margin: 0;
+    text-align: left; }
+  .logo {
+    width: 40px;
+    height: 40px; }
   .aside {
-    width: 17px;
-    height: 17px;
+    width: 25px;
+    height: 25px;
     margin: 0px; }
   #aside {
     display: none; }
@@ -470,9 +591,14 @@ p {
     margin: 0;
     padding: 0; }
   .menuBar {
-    width: 12px;
-    height: 12px;
+    width: 22px;
+    height: 22px;
     margin: 0px; }
+  nav li {
+    line-height: 3rem;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 1rem; }
   .search {
     width: 20%;
     font-size: 0.5rem;
@@ -506,7 +632,7 @@ p {
     width: 150px;
     height: 200px; }
   .felizNavidad {
-    width: 320px;
+    width: 100%;
     height: 150px;
     margin-top: 30px; }
   .primavera {
@@ -528,24 +654,22 @@ p {
     height: 100px;
     margin-top: 30px; }
   h2 {
-    font-size: 0.8rem; }
+    font-size: 1rem; }
   h3 {
-    font-size: 0.8rem; }
+    font-size: 1rem; }
   .form {
     border-radius: 10px;
     text-align: center;
     width: 60%;
     margin: 45px 20% 0 20%; }
   .log-in {
-    width: 100%;
-    height: calc(100vh - 230px); }
+    width: 100%; }
   .olvidoPass {
     width: 100%;
-    height: calc(100vh - 230px);
     text-align: center; }
   .grid {
-    height: 220px;
-    font-size: 8px; }
+    height: 310px;
+    font-size: 10px; }
   .grid__footer {
     gap: 5px;
     margin: 5px; }
@@ -560,10 +684,130 @@ p {
   .condiciones {
     font-size: small; }
   .genero {
+    font-size: large; }
+  p {
     font-size: x-small; } }
 
-/*Smartphone*/
-@media (min-width: 401px) and (max-width: 520px) {
+/*Smartphone L*/
+@media (min-width: 425px) and (max-width: 456px) {
+  header {
+    width: 100%;
+    height: 10px; }
+  .navbar {
+    height: 40px; }
+  h1 {
+    font-size: small; }
+  .logo {
+    width: 40px;
+    height: 40px; }
+  .aside {
+    width: 20px;
+    height: 20px; }
+  #aside {
+    display: none; }
+  .menuBar {
+    width: 18px;
+    height: 18px; }
+  nav li {
+    line-height: 3rem;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 1rem; }
+  .search1 {
+    margin: 0 0 5px 0;
+    padding: 0; }
+  .search {
+    width: 30%;
+    font-size: 0.5rem;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    margin: 0;
+    padding: 0; }
+  .tamaño img {
+    height: 200px;
+    margin-top: 30px;
+    padding: 0;
+    transform: none;
+    border-radius: 0; }
+  .imgWide {
+    width: 195px;
+    height: 300px;
+    border-radius: 15px;
+    margin-left: 5px; }
+  .imgWide:hover {
+    width: 195px;
+    height: 300px;
+    transition: none; }
+  .imgtrends {
+    width: 195px;
+    height: 300px;
+    border-radius: 15px;
+    margin-left: 5px; }
+  .imgtrends:hover {
+    width: 195px;
+    height: 300px;
+    transition: none; }
+  .felizNavidad1 {
+    width: 150px;
+    height: 200px; }
+  .felizNavidad {
+    height: 150px;
+    margin-top: 30px; }
+  .primavera {
+    height: 180px; }
+  .imgCat {
+    width: 195px;
+    height: 300px;
+    border-radius: 15px;
+    margin-left: 5px; }
+  .imgCat:hover {
+    width: 195px;
+    height: 300px;
+    transition: none; }
+  .felizNavidadcat {
+    width: 320px;
+    height: 100px;
+    margin-top: 45px; }
+  .form {
+    border-radius: 10px;
+    text-align: center;
+    width: 60%;
+    margin: 45px 20% 0 20%; }
+  h2 {
+    font-size: 0.8rem; }
+  h3 {
+    font-size: 1rem; }
+  .log-in {
+    width: 100%;
+    height: calc(100vh - 215px); }
+  .olvidoPass {
+    width: 100%;
+    height: calc(100vh - 215px);
+    text-align: center; }
+  .registro {
+    width: 100%;
+    height: calc(100vh - 215px); }
+  .grid {
+    height: 210px;
+    font-size: 9px; }
+  .grid__footer {
+    gap: 5px;
+    margin: 5px; }
+  h4 {
+    font-size: 11px; }
+  .grid--map {
+    width: 70px;
+    height: 70px; }
+  .grid--img {
+    width: 15px;
+    height: 15px; }
+  .condiciones {
+    font-size: small; }
+  .genero {
+    font-size: x-small; } }
+
+/*Tablet S*/
+@media (min-width: 457px) and (max-width: 520px) {
   header {
     height: 8px; }
   .navbar {
@@ -671,11 +915,11 @@ p {
   .genero {
     font-size: x-small; } }
 
-/*Tablet*/
-@media (min-width: 521px) and (max-width: 780px) {
+/*Tablet M*/
+@media (min-width: 521px) and (max-width: 768px) {
   header {
     width: 100vw;
-    height: 50px;
+    height: 40px;
     margin: 0;
     justify-content: center; }
   .navbar {
@@ -683,7 +927,7 @@ p {
   h1 {
     font-size: medium; }
   .search {
-    width: 40%;
+    width: 35%;
     height: 20px;
     font-size: 0.5rem;
     border-radius: 15px;
@@ -692,8 +936,8 @@ p {
     margin: 0 0 40px 0;
     padding: 0; }
   .aside {
-    width: 28px;
-    height: 28px;
+    width: 27px;
+    height: 27px;
     margin-left: 20px; }
   #aside {
     display: none; }
@@ -775,7 +1019,98 @@ p {
     font-size: small; } }
 
 /*Desktop*/
-@media (min-width: 781px) and (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 991px) {
+  header {
+    width: 100vw;
+    height: 40px;
+    margin: 0;
+    justify-content: center; }
+  h1 {
+    font-size: large; }
+  .aside {
+    width: 28px;
+    height: 28px; }
+  #aside {
+    width: 28px;
+    height: 28px; }
+  .menuBar {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px; }
+  .tamaño img {
+    height: 450px;
+    margin: 0;
+    padding: 0;
+    border-radius: 0; }
+  .imgWide {
+    width: 300px;
+    height: 550px;
+    border-radius: 15px;
+    margin-left: 5px; }
+  .imgWide:hover {
+    width: 300px;
+    height: 550px;
+    transition: none; }
+  .imgtrends {
+    width: 300px;
+    height: 550px;
+    border-radius: 15px;
+    margin-left: 5px; }
+  .imgtrends:hover {
+    width: 300px;
+    height: 550px;
+    transition: none; }
+  .primavera {
+    height: 300px; }
+  .felizNavidad {
+    height: 200px; }
+  .felizNavidadcat {
+    height: 200px;
+    margin-top: 5px; }
+  .imgCat {
+    width: 300px;
+    height: 550px;
+    border-radius: 15px;
+    margin-left: 5px; }
+  .imgCat:hover {
+    width: 300px;
+    height: 550px;
+    transition: none; }
+  .form {
+    border-radius: 10px;
+    text-align: center;
+    width: 60%;
+    margin: 16px 20% 0 20%; }
+  .log-in {
+    width: 100%;
+    height: calc(100vh - 250px); }
+  .olvidoPass {
+    width: 100%;
+    height: calc(100vh - 250px);
+    text-align: center; }
+  h3 {
+    font-size: 20px; }
+  .grid {
+    height: 210px;
+    font-size: 11px; }
+  .grid__footer {
+    gap: 5px;
+    margin: 5px; }
+  h4 {
+    font-size: 1rem; }
+  .grid--map {
+    width: 100px;
+    height: 100px; }
+  .grid--img {
+    width: 25px;
+    height: 25px; }
+  .condiciones {
+    font-size: large; }
+  .genero {
+    font-size: medium; } }
+
+/*Desktop*/
+@media (min-width: 992px) and (max-width: 1200px) {
   header {
     width: 100vw;
     height: 40px;
