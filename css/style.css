@@ -30,8 +30,8 @@ h4 {
 variable
 *************/
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box; }
 
 header {
@@ -51,7 +51,7 @@ h1 {
   font-family: 'Kalam', cursive;
   font-weight: bold;
   color: black;
-  font-size: x-large; }
+  font-size: 2rem; }
 
 .search1 {
   margin: 0;
@@ -425,7 +425,7 @@ article {
   border-radius: 15px;
   text-align: center;
   width: 40%;
-  margin: 8px 30% 0 30%;
+  margin: 15px 30% 0 30%;
   border-style: groove;
   background-color: #f1dfd1;
   background-image: linear-gradient(300deg, #f1dfd1 0%, #f6f0ea 95%); }
@@ -458,7 +458,7 @@ p {
   .logo {
     width: 40px;
     height: 20px;
-    margin: 0px 5px 10px 5px;
+    margin: 0 5px 10px 5px;
     padding: 0 5px 10px 5px; }
   h1 {
     font-size: 0.80rem;
@@ -466,7 +466,7 @@ p {
   .aside {
     width: 22px;
     height: 22px;
-    margin: 0px; }
+    margin: 0; }
   #aside {
     display: none; }
   .menu {
@@ -475,7 +475,7 @@ p {
   .menuBar {
     width: 20px;
     height: 20px;
-    margin: 0px; }
+    margin: 0; }
   nav li {
     line-height: 2rem;
     background-color: transparent;
@@ -543,8 +543,7 @@ p {
     width: 100%;
     text-align: center; }
   .grid {
-    height: 430px;
-    font-size: 10px; }
+    height: 430px; }
   .grid__footer {
     gap: 5px;
     margin: 5px; }
@@ -578,7 +577,7 @@ p {
   .logo {
     width: 40px;
     height: 20px;
-    margin: 0px 5px 10px 5px;
+    margin: 0 5px 10px 5px;
     padding: 0 5px 10px 5px; }
   h1 {
     font-size: 0.80rem;
@@ -586,7 +585,7 @@ p {
   .aside {
     width: 25px;
     height: 25px;
-    margin: 0px; }
+    margin: 0; }
   #aside {
     display: none; }
   .menu {
@@ -595,7 +594,7 @@ p {
   .menuBar {
     width: 22px;
     height: 22px;
-    margin: 0px; }
+    margin: 0; }
   nav li {
     line-height: 2rem;
     background-color: transparent;
@@ -668,8 +667,7 @@ p {
     width: 100%;
     text-align: center; }
   .grid {
-    height: 410px;
-    font-size: 10px; }
+    height: 410px; }
   .grid__footer {
     gap: 5px;
     margin: 5px; }
@@ -703,7 +701,7 @@ p {
   .logo {
     width: 40px;
     height: 20px;
-    margin: 0px 5px 10px 5px;
+    margin: 0 5px 10px 5px;
     padding: 0 5px 10px 5px; }
   h1 {
     font-size: 0.80rem;
@@ -819,7 +817,7 @@ p {
   .logo {
     width: 60px;
     height: 20px;
-    margin: 0px 5px 10px 5px;
+    margin: 0 5px 10px 5px;
     padding: 0 5px 10px 5px; }
   h1 {
     font-size: 1rem; }
@@ -969,7 +967,7 @@ p {
   .menuBar {
     width: 25px;
     height: 25px;
-    margin: 0px 10px; }
+    margin: 0 10px; }
   .tamaño img {
     height: 300px;
     margin-top: 5px;
